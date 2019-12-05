@@ -1,1 +1,1 @@
-let rules = new Rules();
+let base = new Base(0);
