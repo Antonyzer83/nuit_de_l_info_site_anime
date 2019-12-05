@@ -16,6 +16,7 @@ class Rules {
     showTitle() {
         let ruleTitle = document.createElement("h2");
         ruleTitle.innerHTML = "Quelles sont les règles ?";
+        ruleTitle.classList.add("slideTitle");
         this.main.appendChild(ruleTitle);
         this.process = setInterval(this.showOneRule, 2000);
     }
@@ -30,7 +31,7 @@ class Rules {
             rules.count++;
         } else {
             clearInterval(rules.process);
-            setTimeout(rules.deleteRules(), 3000);
+            setTimeout(rules.deleteRules, 2500);
         }
     }
 
