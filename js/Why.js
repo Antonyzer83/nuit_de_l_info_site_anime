@@ -1,0 +1,6 @@
+class Why {
+
+    constructor() {
+
+    }
+}
