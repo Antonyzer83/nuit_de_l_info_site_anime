@@ -1,0 +1,33 @@
+html, body {
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+span.rule {
+    font-size: 30px;
+    position: fixed;
+    animation: showRule ease 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes showRule {
+    0% {
+        top: 50vh;
+        left: -50%;
+    }
+
+    50% {
+        left: 45%;
+        opacity: 1;
+    }
+
+    100% {
+        top: 50vh;
+        left: 80%;
+        opacity: 0;
+    }
+}

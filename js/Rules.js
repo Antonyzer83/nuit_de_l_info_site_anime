@@ -25,10 +25,19 @@ class Rules {
         if (rules.count < 3) {
             let oneRule = document.createElement("span");
             oneRule.innerHTML = rules.rules[rules.count];
+            oneRule.classList.add("rule");
             rules.main.appendChild(oneRule);
             rules.count++;
         } else {
             clearInterval(rules.process);
+            setTimeout(rules.deleteRules(), 3000);
+        }
+    }
+
+    deleteRules() {
+        let rules = document.getElementsByClassName("rule");
+        for (let i = 2; i >= 0; i--) {
+            rules[i].remove();
         }
     }
 }
