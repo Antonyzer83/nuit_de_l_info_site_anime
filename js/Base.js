@@ -55,6 +55,13 @@ class Base {
                 "waiting",
                 "Le stress monte si tu vise le premier prix",
                 "La peur de pas trouver le sommeil"
+                "(Y en beaucoup trop !)"
+            ],
+            [
+                "waiting",
+                "Stress",
+                "Peur",
+                "Horreur"
             ]
         ];
         this.titles = [
