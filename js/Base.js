@@ -40,14 +40,21 @@ class Base {
             ],
             [
                 "why",
-                "Cernes sous les yeux",
-                "Fatigue",
-                "Dépression",
-                "Tenues adéquates",
+                "Pour avoir des cernes sous les yeux !!",
+                "La fatigue omniprésent",
+                "Un soutien présent entre camarade  ",
+                "Des tenues adéquates",
                 "A manger"
             ],
             [
                 "partner",
+                "Des partenariat avec des grosses entreprise et des petites ! ",
+                "(Il y en a beaucoup trop !)"
+            ],
+            [
+                "waiting",
+                "Le stress monte si tu vise le premier prix",
+                "La peur de pas trouver le sommeil"
                 "(Y en beaucoup trop !)"
             ],
             [
